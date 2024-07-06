@@ -1,0 +1,36 @@
+import './scss/style.scss'
+import '@sebgroup/fonts/fonts/SEBSansSerif-Light.eot';
+import '@sebgroup/fonts/fonts/SEBSansSerif-Light.eot?#iefix';
+import '@sebgroup/fonts/fonts/SEBSansSerif-Light.woff2';
+import '@sebgroup/fonts/fonts/SEBSansSerif-Light.woff';
+import '@sebgroup/fonts/fonts/SEBSansSerif-Regular.eot';
+import '@sebgroup/fonts/fonts/SEBSansSerif-Regular.eot?#iefix';
+import '@sebgroup/fonts/fonts/SEBSansSerif-Regular.woff2';
+import '@sebgroup/fonts/fonts/SEBSansSerif-Regular.woff';
+import '@sebgroup/fonts/fonts/SEBSansSerif-Medium.eot';
+import '@sebgroup/fonts/fonts/SEBSansSerif-Medium.eot?#iefix';
+import '@sebgroup/fonts/fonts/SEBSansSerif-Medium.woff2';
+import '@sebgroup/fonts/fonts/SEBSansSerif-Medium.woff';
+import '@sebgroup/fonts/fonts/SEBSansSerif-Bold.eot';
+import '@sebgroup/fonts/fonts/SEBSansSerif-Bold.eot?#iefix';
+import '@sebgroup/fonts/fonts/SEBSansSerif-Bold.woff2';
+import '@sebgroup/fonts/fonts/SEBSansSerif-Bold.woff';
+import '@sebgroup/fonts/fonts/SEBSansSerif-LightItalic.eot';
+import '@sebgroup/fonts/fonts/SEBSansSerif-LightItalic.eot?#iefix';
+import '@sebgroup/fonts/fonts/SEBSansSerif-LightItalic.woff2';
+import '@sebgroup/fonts/fonts/SEBSansSerif-LightItalic.woff';
+import '@sebgroup/fonts/fonts/SEBSansSerif-RegularItalic.eot';
+import '@sebgroup/fonts/fonts/SEBSansSerif-RegularItalic.eot?#iefix';
+import '@sebgroup/fonts/fonts/SEBSansSerif-RegularItalic.woff2';
+import '@sebgroup/fonts/fonts/SEBSansSerif-RegularItalic.woff';
+import '@sebgroup/fonts/fonts/SEBSansSerif-MediumItalic.eot';
+import '@sebgroup/fonts/fonts/SEBSansSerif-MediumItalic.eot?#iefix';
+import '@sebgroup/fonts/fonts/SEBSansSerif-MediumItalic.woff2';
+import '@sebgroup/fonts/fonts/SEBSansSerif-MediumItalic.woff';
+import '@sebgroup/fonts/fonts/SEBSansSerif-BoldItalic.eot';
+import '@sebgroup/fonts/fonts/SEBSansSerif-BoldItalic.eot?#iefix';
+import '@sebgroup/fonts/fonts/SEBSansSerif-BoldItalic.woff2';
+import '@sebgroup/fonts/fonts/SEBSansSerif-BoldItalic.woff';
+import App from './app'
+
+new App();

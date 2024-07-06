@@ -1,0 +1,49 @@
+@use "@sebgroup/fonts/scss/seb-fonts" with ($seb-font-path: 'node_modules/@sebgroup/fonts/fonts');
+
+:root {
+    --vos-background: white;
+    --vos-text: white;
+    --vos-logo-width: 5vw;
+    --vos-font-size: var(--vos-logo-width);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--vos-background);
+    color: var(--vos-text);
+    font-family: "SEBSansSerif", sans-serif;
+}
+
+#vos-canvas {
+    --gradientColorZero: #2455ff;
+    --gradientColorOne: #ff014d;
+    --gradientColorTwo: #5affff;
+    --gradientColorThree: #fdcc61;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+
+#overlay {
+    position: absolute;
+    inset: 0;
+    display: grid;
+
+    .content {
+        display: flex;
+        place-self: center;
+        justify-content: center;
+        align-items: center;
+        font-size: var(--vos-font-size);
+        color: white;
+        letter-spacing: calc(var(--vos-font-size) * -.05);
+
+        #logo {
+            width: var(--vos-logo-width);
+            margin-inline-end: calc(var(--vos-logo-width) / 3);
+        }
+    }
+}
+
+
